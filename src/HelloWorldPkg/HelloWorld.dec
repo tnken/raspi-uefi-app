@@ -1,0 +1,5 @@
+[Defines]
+  DEC_SPECIFICATION              = 0x00010005
+  PACKAGE_NAME                   = HelloWorldPkg
+  PACKAGE_GUID                   = 83250790-31b9-47d3-adcd-154728a32736
+  PACKAGE_VERSION                = 0.1

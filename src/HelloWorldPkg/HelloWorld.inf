@@ -1,0 +1,17 @@
+[Defines]
+  INF_VERSION                    = 0x00010006
+  BASE_NAME                      = HelloWorld
+  FILE_GUID                      = 4709f606-9ae5-4d13-9386-bcc916700b01
+  MODULE_TYPE                    = UEFI_APPLICATION
+  VERSION_STRING                 = 0.1
+  ENTRY_POINT                    = EfiAppMain
+
+[Sources]
+  HelloWorld.c
+
+[Packages]
+  MdePkg/MdePkg.dec
+
+[LibraryClasses]
+  UefiLib
+  UefiApplicationEntryPoint
